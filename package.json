@@ -13,13 +13,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/andreeeaa18/Cinema/issues"
   },
   "homepage": "https://github.com/andreeeaa18/Cinema#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "mongoose": "^9.9.5"
   }
 }
