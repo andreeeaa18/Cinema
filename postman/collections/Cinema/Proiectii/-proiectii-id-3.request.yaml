@@ -1,0 +1,5 @@
+$kind: http-request
+name: /proiectii/:id
+url: http://localhost:3001/api/proiectii/6aabb92998c0d119d20b95f6
+method: DELETE
+order: 8000

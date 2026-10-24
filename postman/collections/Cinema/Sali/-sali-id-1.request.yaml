@@ -1,0 +1,13 @@
+$kind: http-request
+name: /sali/:id
+url: http://localhost:3001/api/sali/6abcd5b9a8da611f125ad6c9
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "nume": "Sala 4",
+        "randuri": 15,
+        "locuriPeRand": 10
+    }
+order: 4000

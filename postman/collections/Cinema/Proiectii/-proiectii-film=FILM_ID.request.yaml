@@ -1,0 +1,7 @@
+$kind: http-request
+name: /proiectii?film=FILM_ID
+url: http://localhost:3001/api/proiectii?film=6abcd226a8da611f125ad6c5
+method: GET
+queryParams:
+  film: 6abcd226a8da611f125ad6c5
+order: 3000

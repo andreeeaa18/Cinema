@@ -1,0 +1,5 @@
+$kind: http-request
+name: /filme/:id
+url: http://localhost:3001/api/filme/6aabb76298c0d119d20b95ef
+method: DELETE
+order: 6000

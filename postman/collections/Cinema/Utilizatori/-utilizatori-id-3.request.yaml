@@ -1,0 +1,5 @@
+$kind: http-request
+name: /utilizatori/:id
+url: http://localhost:3001/api/utilizatori/6aabb9be98c0d119d20b95fa
+method: DELETE
+order: 5000

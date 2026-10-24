@@ -1,0 +1,5 @@
+$kind: http-request
+name: /rezervari
+url: http://localhost:3001/api/rezervari
+method: GET
+order: 1000

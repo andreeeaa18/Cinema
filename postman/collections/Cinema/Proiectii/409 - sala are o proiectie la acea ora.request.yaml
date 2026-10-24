@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3001/api/proiectii
+method: POST
+body:
+  type: json
+  content: |-
+    { "film":  "6aabb74098c0d119d20b95ee",
+               
+            "sala":  "6aabc078f5a607c5cf04e96b",
+               
+            "pret": 120,
+            "data": "2026-10-01T00:00:00.000Z",
+            "ora": "20:00" }
+order: 9000

@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:3001/api/utilizatori
+method: POST
+body:
+  type: json
+  content: |-
+    { "nume": "Aliona",
+            "email": "aliona90@example.com",
+            "parola": "alionaparola",
+            "puncteBonus": 0 }
+order: 6000

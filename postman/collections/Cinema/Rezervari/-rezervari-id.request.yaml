@@ -1,0 +1,13 @@
+$kind: http-request
+name: /rezervari/:id
+url: http://localhost:3001/api/rezervari/6abcc80a1d1167d98964fa40
+method: PUT
+body:
+  type: json
+  content: |-
+    {                                                                                                             
+        "proiectie": "6aabb95b98c0d119d20b95f7",                                                                     
+        "utilizator": "6aad2bde7cbc25bebb3fedbb",                                                                         
+        "locuri": ["1-5", "1-6"]                                                                             
+    }
+order: 6000

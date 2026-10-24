@@ -1,0 +1,14 @@
+$kind: http-request
+name: /filme/:id
+url: http://localhost:3001/api/filme/6abcd226a8da611f125ad6c5
+method: PUT
+body:
+  type: json
+  content: |-
+    {                                                                                                             
+         "titlu": "F1",                                                                                       "gen": "Drama",                                                                
+         "durataMin": 155,                                                                                              
+                                                                                                    
+         "anulLansarii": 2025                                                                                                
+       }
+order: 4000

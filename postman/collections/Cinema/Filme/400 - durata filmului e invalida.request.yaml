@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:3001/api/filme
+method: POST
+body:
+  type: json
+  content: |2-
+     { "titlu": "Film",
+            "gen": "Comedie, Drama",
+            "durataMin": -3,
+            "anulLansarii": 2022 }
+order: 9000

@@ -1,0 +1,5 @@
+$kind: http-request
+name: /proiectii
+url: http://localhost:3001/api/proiectii
+method: GET
+order: 1000

@@ -1,0 +1,15 @@
+workspace:
+  id: 6e4e646a-3d03-4071-85d6-fd5fdb662a38
+cloudResources:
+  collections:
+    ../postman/collections/New Collection: 39134428-91b1446a-f092-4088-a1be-aef41d9d54c2
+    ../postman/collections/Cinema: 39134428-12fef051-9a24-4cf9-abaf-224aa5ad0da4
+    ../postman/collections/API Testing: 39134428-0aee1ed2-5e0a-4222-bd93-65dd74beda95
+    ../postman/collections/Postman Collection (from GraphQL): 39134428-a1d159b0-b487-4450-b011-f44d979bfe04
+    ../postman/collections/New Relic Nerdgraph GraphQL API Collection: 39134428-d493442a-6b75-42c2-806f-c749b248b442
+    ../postman/collections/Contact List Documentation: 39134428-6edae2d6-ab19-4c7a-ac6d-f297d9694fa8
+    ../postman/collections/Swagger Petstore: 39134428-9742a788-70d5-4c07-b8c7-dcb330463b04
+  environments:
+    ../postman/environments/Contact List Doc Environment.environment.yaml: 39134428-994b2677-9d73-441d-ac87-f8292e51a876
+  globals:
+    ../postman/globals/workspace.globals.yaml: 5a82e2c4-fd58-4904-8351-1f4638adcd64

@@ -1,0 +1,7 @@
+$kind: http-request
+name: /rezervari?user=USER_ID
+url: http://localhost:3001/api//rezervari?user=6aabba0398c0d119d20b95fd
+method: GET
+queryParams:
+  user: 6aabba0398c0d119d20b95fd
+order: 3000

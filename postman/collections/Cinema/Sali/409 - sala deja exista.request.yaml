@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3001/api/sali
+method: POST
+body:
+  type: json
+  content: |-
+    { "nume": "Sala 1",
+        "randuri": 12,
+        "locuriPeRand": 10 }
+order: 7000

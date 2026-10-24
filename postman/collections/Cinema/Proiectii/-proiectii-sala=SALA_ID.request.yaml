@@ -1,0 +1,7 @@
+$kind: http-request
+name: /proiectii?sala=SALA_ID
+url: http://localhost:3001/api/proiectii?sala=6aabc07ef5a607c5cf04e96c
+method: GET
+queryParams:
+  sala: 6aabc07ef5a607c5cf04e96c
+order: 4000

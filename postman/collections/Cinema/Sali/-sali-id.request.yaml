@@ -1,0 +1,5 @@
+$kind: http-request
+name: /sali/:id
+url: http://localhost:3001/api/sali/6aabc07ef5a607c5cf04e96c
+method: GET
+order: 2000

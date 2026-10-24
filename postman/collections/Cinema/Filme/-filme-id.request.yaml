@@ -1,0 +1,5 @@
+$kind: http-request
+name: /filme/:id
+url: http://localhost:3001/api/filme/6aabb77f98c0d119d20b95f0
+method: GET
+order: 2000

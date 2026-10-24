@@ -1,0 +1,16 @@
+$kind: http-request
+name: /utilizatori/:id
+url: http://localhost:3001/api/utilizatori/6aabb9d398c0d119d20b95fb
+method: PUT
+body:
+  type: json
+  content: |2-
+      {
+            "nume": "Grigore",
+            "email": "grigore2001@example.com",
+            "puncteBonus": 25,
+            "createdAt": "2026-09-17T09:58:43.413Z",
+            "updatedAt": "2026-09-17T09:58:43.413Z",
+            "__v": 0
+        }
+order: 3000

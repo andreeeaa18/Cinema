@@ -1,0 +1,7 @@
+$kind: http-request
+name: /rezervari?proiectie=PROIECTIE_ID
+url: http://localhost:3001/api/rezervari?proiectie=6aabb98798c0d119d20b95f9
+method: GET
+queryParams:
+  proiectie: 6aabb98798c0d119d20b95f9
+order: 4000

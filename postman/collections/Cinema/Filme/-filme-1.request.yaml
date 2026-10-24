@@ -1,0 +1,15 @@
+$kind: http-request
+name: /filme
+url: http://localhost:3001/api/filme
+method: POST
+body:
+  type: json
+  content: |-
+    {                                                                                                             
+         "titlu": "F1",                                                                                       
+         "descriere": "American sports drama film",                                                                        
+         "durata": 155,                                                                                              
+         "gen": "Drama",                                                                                            
+         "anul": 2025                                                                                                
+       }
+order: 3000

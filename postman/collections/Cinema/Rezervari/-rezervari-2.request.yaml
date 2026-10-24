@@ -1,0 +1,8 @@
+$kind: http-request
+name: /rezervari
+url: http://localhost:3001/api/rezervari/6abcc80a1d1167d98964fa40
+method: PATCH
+body:
+  type: json
+  content: ' {"locuri": ["6-5", "6-6"]     }'
+order: 7000

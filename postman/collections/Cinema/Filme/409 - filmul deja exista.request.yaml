@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:3001/api/filme
+method: POST
+body:
+  type: json
+  content: |2-
+     {"titlu": "Carbon",
+            "gen": "Comedie, Drama",
+            "durataMin": 103,
+            "anulLansarii": 2022 }
+order: 7000

@@ -1,0 +1,5 @@
+$kind: http-request
+name: /rezervari/:id
+url: http://localhost:3001/api/rezervari/6abcc80a1d1167d98964fa40
+method: DELETE
+order: 8000

@@ -1,0 +1,8 @@
+$kind: http-request
+name: /filme/:id
+url: http://localhost:3001/api/filme/6abcd226a8da611f125ad6c5
+method: PATCH
+body:
+  type: json
+  content: '{"durataMin": 155 } '
+order: 5000

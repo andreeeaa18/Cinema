@@ -1,0 +1,11 @@
+$kind: http-request
+name: /sali/:id
+url: http://localhost:3001/api/sali/6aabc06ff5a607c5cf04e96a
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+      "randuri": 14
+    }
+order: 5000
